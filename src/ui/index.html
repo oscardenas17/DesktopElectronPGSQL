@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alertas Moviliza</title>
+    <link rel="stylesheet" href="./bootstrap.min.css">
+    <link rel="stylesheet" href="./style.css">
+    
+    
+</head>
+<body>
+
+
+
+    <main class="container-fluid">    
+
+      <div class="row my1">
+
+          <div class="col-12 p-2 my-1">
+            <form class="card card-body border border-info">
+                <div class="form-group ">                  
+                  <div class="text-center font-weight-bold text-primary bg-light ">
+                    <label class="text-center" for="">CHECK - RETIENE VEHICULO</label>
+                  </div>
+                    
+                   
+                    <table class="table text-center">
+                        <thead>
+                          <tr class="">
+                            <th scope="col">PLACA</th>
+                            <th scope="col">COMPARENDO</th>
+                            <th scope="col">GRUA</th>
+                            <th scope="col">FECHA COMPARENDO</th>
+                          </tr>
+                        </thead>
+                        <tbody id="retienes" class="text-center">
+                          
+
+                        </tbody>
+                      </table>
+                </div>
+            </form>
+        </div>
+
+            <div class="col-12 p-2 my-1 ">
+                <form class="card card-body border border-info">
+                    <div class="form-group" id="patiosForm">
+                      <div class="text-center font-weight-bold text-primary bg-light ">
+                        <label for="">PATIO INCORRECTO</label>
+                      </div>
+                        
+                        <table class="table  table-striped">
+                            <thead>
+                              <tr>
+                               
+                                <th scope="col">PATIO SELECCIONADO</th>
+                                <th scope="col">FECHA COMPARENDO</th>
+                                <th scope="col">PLACA</th>
+                                <th scope="col"> INGRESO A SISTEMA</th>
+
+                              </tr>
+                            </thead>
+                            <tbody id="patios" class="text-center" >
+                             
+                            </tbody>
+                          </table>
+                    </div>
+                </form>
+            </div>
+
+            <div class=" col-12 p-2 my-1">
+                <form class="card card-body border border-info ">
+                    <div class="form-group">
+                      <div class="text-center font-weight-bold text-primary  bg-light ">
+                        <label for="">REINCIDENCIA D12</label>
+                      </div>
+                       
+                        <table class="table text-center" >
+                          <thead>
+                            <tr>
+                              
+                              <th scope="col">COMPARENDO</th>
+                              <th scope="col">FECHA COMPARENDO</th>
+                              <th scope="col">PLACA</th>
+                              
+                            </tr>
+                          </thead>
+                          <tbody id="reincidencias"  class="text-center">
+                            
+  
+                          </tbody>
+                          </table>
+                    </div>
+                    <!-- <button class="btn-sm btn-primary">Recargar</button> -->
+                </form>
+            </div>
+
+            <div class="col-12 p-2 my-1"> 
+                <form class="card card-body border border-info">
+                    <div class="form-group">
+                      <div class="text-center font-weight-bold text-primary bg-light ">
+                        <label for="">CHECK - FUGA</label>
+                      </div>
+                       
+                        <table class="table text-center">
+                          <thead>
+                            <tr>
+                              
+                              <th scope="col">COMPARENDO</th>
+                              <th scope="col">PLACA</th>
+                              <th scope="col">INFRACCION</th>
+                              <th scope="col">VALOR COMPARENDO</th>
+                            </tr>
+                          </thead>
+                          <tbody id="fugas" class="text-center" >
+                            
+  
+                          </tbody>
+                          </table>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <div class="text-center">
+          <img src="./logodtb.png" alt=""class="img-rounded" alt="Cinque Terre" width="95" height="95" >
+        </div>
+
+    </main>
+
+    <script src="./app.js"></script>
+ 
+
+  
+</body>
+</html>
